@@ -8,11 +8,18 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
+<<<<<<< HEAD
 function sum(f, g) { //eslint-disable-line
     var c = f + g;
     // var result= "The sum of 4 and 7 is 11.";
     return [c, "The sum of " + f + " and " + g + " is " + c + "."];
 
+=======
+function sum(a, b) { //eslint-disable-line
+    var c = a + b;
+    var resultString = 'The sum of ' + a + ' and ' + b + ' is ' + c + '.';
+    return [c, resultString];
+>>>>>>> ea2d3495267001a2eba0c59cb6442a9215fe83db
 }
 sum();
 
@@ -34,9 +41,15 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
+<<<<<<< HEAD
 function multiply(e, t) { //eslint-disable-line
     var d = e * t;
     return [d, "The product of " + e + " and " + t + " is " + d + "."];
+=======
+function multiply(a, b) {
+    var c = a * b;
+    return [c, "The product of " + a + " and " + b + " is " + c + "."];
+>>>>>>> ea2d3495267001a2eba0c59cb6442a9215fe83db
 }
 multiply();
 
